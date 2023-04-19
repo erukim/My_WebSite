@@ -1,0 +1,10 @@
+{
+  "apps": [
+    {
+      "name": "Myweb-erukim",
+      "script": "node_modules/react-scripts/scripts/start.js",
+      "node_args": "--enable-source-maps",
+      "restart_delay": 5000
+    }
+  ]
+}
