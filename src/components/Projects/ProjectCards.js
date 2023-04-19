@@ -7,7 +7,7 @@ import { BsGithub } from "react-icons/bs";
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      {/* <Card.Img variant="top" src={props.imgPath} alt="card-img" /> */}
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
@@ -31,6 +31,17 @@ function ProjectCards(props) {
           >
             <CgWebsite /> &nbsp;
             {"Demo"}
+          </Button>
+        )}
+        {!props.isBlog && props.weblink && (
+          <Button
+            variant="primary"
+            href={props.weblink}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            <CgWebsite /> &nbsp;
+            {"홈페이지"}
           </Button>
         )}
       </Card.Body>
