@@ -36,7 +36,7 @@ function Projects() {
               weblink="https://archiver.me"
             />
           </Col>
-          
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath="https://erukim.kr/img/inft.png"
@@ -47,7 +47,7 @@ function Projects() {
               weblink="https://inft.kr/"
             />
           </Col>
-          
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath="https://erukim.kr/img/KIOH.png"
@@ -58,7 +58,7 @@ function Projects() {
               weblink="https://kioh.kr"
             />
           </Col>
-          
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath="https://erukim.kr/img/Korcan.png"
@@ -68,7 +68,7 @@ function Projects() {
               ghLink="https://github.com/kr-Krocen"
             />
           </Col>
-          
+
           <Col md={4} className="project-card">
             <ProjectCard
               isBlog={false}
