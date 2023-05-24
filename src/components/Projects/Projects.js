@@ -17,7 +17,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="http://127.0.0.1:5000/img/Mora.png"
+              imgPath="https://erukim.kr:5000/img/Mora.png"
               isBlog={false}
               title="Mora"
               description="다양한 API와 Discord Bot을 제작하는 팀이자 프로젝트 입니다."
@@ -28,7 +28,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="http://127.0.0.1:5000/img/Archive.png"
+              imgPath="https://erukim.kr:5000/img/Archive.png"
               isBlog={false}
               title="Archive"
               description="각종 다양한 봇을 책임진다!"
@@ -39,7 +39,7 @@ function Projects() {
           
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="http://127.0.0.1:5000/img/inft.png"
+              imgPath="https://erukim.kr:5000/img/inft.png"
               isBlog={false}
               title="Idle Factory"
               description="모바일 게임의 종류인 Idle game 기반으로 개발된 게임봇"
@@ -50,7 +50,7 @@ function Projects() {
           
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="http://127.0.0.1:5000/img/KIOH.png"
+              imgPath="https://erukim.kr:5000/img/KIOH.png"
               isBlog={false}
               title="KIOH - 한디리"
               description="한국형 익명 글 시스템"
@@ -61,7 +61,7 @@ function Projects() {
           
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="http://127.0.0.1:5000/img/Korcan.png"
+              imgPath="https://erukim.kr:5000/img/Korcan.png"
               isBlog={false}
               title="Korcen (코르센)"
               description="한국형 문자 검열 시스템 모듈"
