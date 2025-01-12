@@ -1,0 +1,6 @@
+name = "my-website"
+type = "javascript"
+account_id = "your_account_id"
+workers_dev = true
+route = "erukim.kr/*"
+zone_id = "your_zone_id"
