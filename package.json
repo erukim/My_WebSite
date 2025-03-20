@@ -34,9 +34,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start:pm2": "yarn pm2:start",
-    "pm2:start": "pm2 start process.json",
-    "pm2:stop": "pm2 stop process.json",
-    "pm2:delete": "pm2 delete process.json"
+    "pm2:start": "pm2 start process.config.js",
+    "pm2:stop": "pm2 stop process.config..js",
+    "pm2:delete": "pm2 delete process.config..js"
   },
   "eslintConfig": {
     "extends": [
